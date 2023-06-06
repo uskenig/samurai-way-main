@@ -1,11 +1,8 @@
 import React from 'react';
-import './App.css';
-import Header from './Header.js';
-import Technologies from './Technologies.js';
 
-function App() {
+const Technologies = () => {
     return (
-        <div className="App">
+        <div>
             <ul>
                 <li>css</li>
                 <li>html</li>
@@ -15,5 +12,4 @@ function App() {
         </div>
     );
 }
-
-export default App;
+export default Technologies;
